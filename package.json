@@ -1,0 +1,19 @@
+{
+  "name": "parkingmanager",
+  "version": "1.0.0",
+  "description": "Parking Manager application, it supports all Parking lot management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariomoosh/ParkingManager.git"
+  },
+  "author": "Mario Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariomoosh/ParkingManager/issues"
+  },
+  "homepage": "https://github.com/mariomoosh/ParkingManager#readme"
+}
