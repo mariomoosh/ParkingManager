@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Parking Spot doesn't have an image if empty 1`] = `
+<div
+  className="parkingSpot text-center spot-down spot-empty"
+  onClick={[Function]}
+>
+  <label>
+    1
+  </label>
+</div>
+`;

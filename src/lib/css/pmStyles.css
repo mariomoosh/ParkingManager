@@ -1,0 +1,77 @@
+.parking-lot{
+    display: flex;    
+    text-align: center;
+    vertical-align: middle;    
+       
+}
+.parking-lot-box{
+    width: 15vw;
+    height: 8vw;
+    border: 1px solid black;    
+    background-color: rgb(149, 236, 149);
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.parking-lot-box label:hover{
+    cursor: pointer;
+}
+
+.parking-row {
+    display: flex;    
+}
+.parkingSpot{
+    width: 10vw;
+    height: 15vw;
+    border-left: 1px solid black;
+    border-right: 1px solid black;    
+    cursor:  pointer;
+}
+
+.parkingSpot label{
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.spot-up{
+    border-top: 1px solid black;
+    border-bottom: 0px;
+}
+
+.spot-down{
+    border-bottom: 1px solid black;
+    border-top:0px;
+}
+
+.spot-empty{
+    background-color: rgb(86, 190, 86);
+}
+
+
+
+.spot-occupied{
+    background-color: rgb(194, 47, 47);
+}
+
+.spot-occupied.spot-up img{
+    height: 14vw;
+    width: 10vw;
+    object-fit: contain;
+    transform: rotate(135deg);
+    -webkit-transform:rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+}
+
+.spot-occupied.spot-down img{
+    height: 14vw;
+    width: 10vw;
+    object-fit: contain;
+    transform: rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
